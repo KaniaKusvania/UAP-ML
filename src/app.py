@@ -1,5 +1,5 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from PIL import Image
 import numpy as np
 import os
@@ -211,3 +211,4 @@ if uploaded_file and model is not None:
 # =============================
 st.markdown("---")
 st.caption("UAP Machine Learning • Klasifikasi Jenis Topi")
+
